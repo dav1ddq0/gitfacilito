@@ -77,6 +77,12 @@ p{
     font-size: 70px;
 }
 
+.btn{
+    padding: 0.5rem;
+    background-color: #C0B31c;
+    color:black;
+    border-radius: 5px;
+}
 /* Animacion */
 @keyframes float {
     50% {
