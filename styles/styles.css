@@ -3,7 +3,7 @@ a{
 }
 
 body{
-    font-family: 'Lato',sans-serif;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 figure{
@@ -11,13 +11,21 @@ figure{
 }
 
 h1,h2,h3,h4,h5,h6{
-    font-family: 'Raleway',sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 h1{
-    color: #D74932;
-    font-size: 50px !important;
+    color: rgba(219, 211, 211, 0.5);
+    font-size: 100px !important;
     text-shadow: 4px 4px 5px rgba(0,0,0,0.5);
+}
+h2{
+    color: rgba(6, 40, 231, 0.5);
+    font-size: 95px !important;
+}
+h3{
+    color: rgba(255, 0, 0, 0.5);
+    font-size: 40px !important;
 }
 
 p{
@@ -78,10 +86,13 @@ p{
 }
 
 .btn{
-    padding: 0.5rem;
-    background-color: #C0B31c;
-    color:black;
+    padding: 10px 20px;
     border-radius: 5px;
+    border: #D4C31C;
+    background-color: #D4C31C;
+    color:black;
+    margin: 10px 0;
+    display: inline-block;
 }
 /* Animacion */
 @keyframes float {
