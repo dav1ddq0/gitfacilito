@@ -28,10 +28,10 @@ h3{
     font-size: 40px !important;
 }
 
-p{
+/* p{
     font-weight: 300;
     font-size: 20px !important;
-}
+} */
 
 .content{
     text-align: center;
@@ -75,6 +75,9 @@ p{
 .infoContent .block h3{
     font-size: 25px;
     margin: 5px 0 10px 0;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-weight: 300;
 }
 
 .infoContent .block{
@@ -99,6 +102,8 @@ p{
 }
 .btn:hover{
     transform: scale(1.2);
+    letter-spacing: 3px;
+    color: white;
 }
 /* Animacion */
 @keyframes coolanim {
