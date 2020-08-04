@@ -30,6 +30,7 @@ h3{
 
 p{
     font-weight: 300;
+    font-size: 20px !important;
 }
 
 .content{
@@ -41,14 +42,14 @@ p{
     background-repeat: no-repeat;
     background-size: cover;
     background: url(../images/cover.jpg);
-    display: flex;
+    display: flow-root;
     height: 100vh;
     justify-content:center;
 }
 
 .icon{
-    animation: float 1.5s ease-out infinite;
-    color: white;
+    animation: coolanim 1.5s ease-out infinite;
+    color: royalblue;
     font-size: 80px !important;
 }
 
@@ -86,6 +87,7 @@ p{
 }
 
 .btn{
+    color: blanchedalmond; 
     padding: 10px 20px;
     border-radius: 5px;
     border: #D4C31C;
@@ -95,9 +97,9 @@ p{
     display: inline-block;
 }
 /* Animacion */
-@keyframes float {
+@keyframes coolanim {
     50% {
-        transform: translate(0,20px);
+        transform: translate(0,10px);
     }
 }
 
