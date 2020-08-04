@@ -93,8 +93,8 @@ h3{
     color: blanchedalmond; 
     padding: 10px 20px;
     border-radius: 5px;
-    border: #D4C31C;
-    background-color:rgba(17, 206, 118, 0.884);
+    border: 2px solid #D4C31C;
+    background-color:rgba(1, 227, 235, 0.884);
     color:black;
     margin: 10px 0;
     display: inline-block;
