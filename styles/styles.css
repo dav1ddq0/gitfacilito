@@ -91,10 +91,14 @@ p{
     padding: 10px 20px;
     border-radius: 5px;
     border: #D4C31C;
-    background-color: #D4C31C;
+    background-color:rgba(17, 206, 118, 0.884);
     color:black;
     margin: 10px 0;
     display: inline-block;
+    transition: 0.3s;
+}
+.btn:hover{
+    transform: scale(1.2);
 }
 /* Animacion */
 @keyframes coolanim {
