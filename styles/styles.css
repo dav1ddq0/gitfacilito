@@ -60,9 +60,11 @@ h3{
 }
 
 .info h2{
-    font-size: 40px;
-    margin: 0;
+    font-size: 50px;
+    margin: 15px 0;
     text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 5px;
 }
 
 .infoContent{
